@@ -170,3 +170,44 @@
 8  53801          HIP7 Gli  -12.2689  40.5845  -37.1473
 9  53802 HIP8 HD224709 Gli  -50.4801 149.0259 -112.4977
 10 53803 HIP9 HD224708 Gli  -69.2050 175.0006  -88.3626
+
+> summary(x)
+       ID                      Label         X                  Y         
+ Min.   :53794   HIP1 HD224700 Gli:1   Min.   :-123.258   Min.   :-38.47  
+ 1st Qu.:53796   HIP2 HD224690 Gli:1   1st Qu.: -42.385   1st Qu.:  2.47  
+ Median :53799   HIP3 HD224699 Gli:1   Median :  -8.346   Median : 33.92  
+ Mean   :53799   HIP4 HD224707 Gli:1   Mean   : -13.326   Mean   : 77.40  
+ 3rd Qu.:53801   HIP5 HD224705 Gli:1   3rd Qu.:   3.757   3rd Qu.:147.66  
+ Max.   :53803   HIP6 Gli         :1   Max.   :  94.720   Max.   :303.70  
+                 (Other)          :4                                      
+       Z             Luminosity           colorb_v           absmag      
+ Min.   :-331.53   Min.   :  0.02319   Min.   :-0.0050   Min.   :-1.150  
+ 1st Qu.:-132.82   1st Qu.:  0.48055   1st Qu.: 0.4320   1st Qu.: 1.887  
+ Median :-100.43   Median :  7.34132   Median : 0.6780   Median : 2.565  
+ Mean   :-115.22   Mean   : 30.14088   Mean   : 0.7649   Mean   : 3.419  
+ 3rd Qu.: -42.41   3rd Qu.: 13.71639   3rd Qu.: 0.9835   3rd Qu.: 5.622  
+ Max.   :   0.00   Max.   :223.14508   Max.   : 1.8220   Max.   : 8.810  
+                                                                         
+     appmag            texnum  Distance..light.years.     dcalc          plx        
+ Min.   :-26.720   Min.   :1   Min.   :   0.0         Min.   :0.0   Min.   : 0.000  
+ 1st Qu.:  8.182   1st Qu.:1   1st Qu.: 168.4         1st Qu.:1.0   1st Qu.: 3.038  
+ Median :  8.820   Median :1   Median : 525.6         Median :1.0   Median : 4.990  
+ Mean   :  5.446   Mean   :1   Mean   : 543.7         Mean   :1.1   Mean   : 8.539  
+ 3rd Qu.:  9.227   3rd Qu.:1   3rd Qu.: 860.1         3rd Qu.:1.0   3rd Qu.:15.242  
+ Max.   : 12.310   Max.   :1   Max.   :1160.1         Max.   :2.0   Max.   :21.900  
+                                                                                    
+     plxerr            vx               vy                 vz              speed      
+ Min.   : 0.00   Min.   :-6.247   Min.   :-32.2760   Min.   :-47.705   Min.   : 0.00  
+ 1st Qu.:12.93   1st Qu.: 0.000   1st Qu.:  0.0000   1st Qu.:  0.000   1st Qu.: 0.00  
+ Median :21.50   Median : 0.000   Median :  0.0000   Median :  0.000   Median : 0.00  
+ Mean   :21.92   Mean   : 5.432   Mean   : -0.2147   Mean   : -3.799   Mean   :11.71  
+ 3rd Qu.:34.92   3rd Qu.: 0.000   3rd Qu.:  0.0000   3rd Qu.:  0.000   3rd Qu.: 0.00  
+ Max.   :39.27   Max.   :60.567   Max.   : 30.1290   Max.   :  9.713   Max.   :82.78  
+                                                                                      
+     hipnum       created_at   updated_at
+ Min.   :0.00   49:09.3:1    49:09.3:1   
+ 1st Qu.:2.25   49:09.4:9    49:09.4:9   
+ Median :4.50                            
+ Mean   :4.50                            
+ 3rd Qu.:6.75                            
+ Max.   :9.00 
