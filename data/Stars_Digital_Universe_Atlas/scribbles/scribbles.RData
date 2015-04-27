@@ -211,3 +211,9 @@
  Mean   :4.50                            
  3rd Qu.:6.75                            
  Max.   :9.00 
+
+> y <- rnorm(x)
+
+> summary(y)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-2.58000 -0.50470 -0.02941 -0.21110  0.40180  1.23700 
