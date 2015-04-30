@@ -1,0 +1,2 @@
+Rcpp (pre-installed)
+install.packages("inline")
