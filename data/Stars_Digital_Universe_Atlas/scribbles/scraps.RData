@@ -1,0 +1,27 @@
+> meow <- read.csv("Stars_Digital_Universe_Atlas.csv")
+> ig <- rnorm(meow)
+> meow <- runif(10)
+> meow <- read.csv("Stars_Digital_Universe_Atlas.csv")
+> x <- extendrange(ig)
+> x
+[1] -2.085355  2.157681
+> plot <- viewport(layout.pos.col = 2, layout.pos.row = 2,
++                  name = "plot", xscale = x)
+> library(grDevices)
+> library(grid)
+> library(stats)
+> vp <- viewport(width = 0.5, height = 0.5)
+> top.vp <-
++     viewport(layout=grid.layout(3, 3,
++                                 widths=unit(c(5, 1, 2), c("lines", "null", "lines")),
++                                 heights=unit(c(5, 1, 4), c("lines", "null", "lines"))))
+> margin1 <- viewport(layout.pos.col = 2, layout.pos.row = 3,
++                     name = "margin1")
+> margin2 <- viewport(layout.pos.col = 1, layout.pos.row = 2,
++                     name = "margin2")
+> margin3 <- viewport(layout.pos.col = 2, layout.pos.row = 1,
++                     name = "margin3")
+> margin4 <- viewport(layout.pos.col = 3, layout.pos.row = 2,
++                     name = "margin4")
+> splot <- vpTree(top.vp, vpList(margin1, margin2, margin3, margin4, plot))
+> pushViewport(splot)
