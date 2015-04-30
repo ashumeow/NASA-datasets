@@ -1,3 +1,9 @@
+In earlier versions of R, there would be problem in loading <code>Rcpp package</code>. <br>
+<code>> install.packages("Rcpp")</code> <br>
+and <br>
+<code>> install.packages("inline")</code> <br>
+<br>
+<b>Execution:</b>
 ```R
 > source("plot-vec-func.R")
   [1] 0.000000000 0.007943282 0.016446803 0.025175454 0.034053597 0.043044583
