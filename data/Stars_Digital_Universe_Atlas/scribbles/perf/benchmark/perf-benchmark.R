@@ -1,0 +1,8 @@
+require(rbenchmark)
+ig <- read.csv("Stars_Digital_Universe_Atlas.csv")
+x <- benchmark(ig, replications=10629)
+print(x)
+rnorm(x)
+summary(x)
+y <- rnorm(x)
+plot(y)
